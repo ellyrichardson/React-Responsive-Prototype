@@ -1,11 +1,14 @@
 .home-section {
-    position: relative;
+  display: grid;
+  grid-template-areas:
+    "welcome"
+    "about";
 }
 
-.welcome {
-    position: absolute;
+.welcome-section {
+  grid-area: welcome;
 }
 
-.about {
-   position: absolute;
+.about-section {
+  grid-area: about;
 }
