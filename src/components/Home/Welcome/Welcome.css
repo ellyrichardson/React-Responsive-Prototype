@@ -1,32 +1,26 @@
 .home-subsections {
-    position: relative;
 }
 
 .welcome-section {
-    margin: 0;
-    padding: 0;
-    min-height: 500px;
-    background:url('../images/home-top-background.jpg') no-repeat 0 -500px;
-    color: white;
-    text-align: center;
-    width: 100%;
-    position: absolute;
+  min-height: 500px;
+  background: url("../images/home-top-background.jpg") no-repeat 0 -500px;
+  color: white;
+  text-align: center;
+  width: 100%;
 }
 
 .welcome-section .container h1 {
-    margin-top: 140px;
-    margin-left: 20%;
-    margin-right: 20%;
-    font-size: 40px;
-    color: white;
-    text-align: center;
+  margin-top: 140px;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 40px;
+  color: white;
+  text-align: center;
 }
 
 .welcome-section .container p {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .about-section {
-    margin-top: 500px;
-    position:absolute;
 }

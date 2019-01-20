@@ -1,18 +1,13 @@
-import React, {Component} from 'react';
+import React from "react";
 
-import Welcome from './Welcome/Welcome';
-import About from './About/About';
+import Welcome from "./Welcome/Welcome";
 
-import './Home.css';
+import "./Home.css";
 
-class Home extends Component {
-    render () {
-        return (
-            <div className="home-section">
-                <Welcome />
-            </div>
-        );
-    }
-}
+const Home = () => (
+  <main className="home-section">
+    <Welcome />
+  </main>
+);
 
 export default Home;
